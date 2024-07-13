@@ -158,18 +158,18 @@ const checkIt = (item) => {
 
     // winner
     if (pathId.value.indexOf(item.id) === pathId.value.length - 1) {
-      item.imgUrl = '/20.png'
+      item.imgUrl = './20.png'
       timeStop()
       reward()
       isWinner = true
     } else {
-      item.imgUrl = '/10.png'
+      item.imgUrl = './10.png'
     }
 
   } else {
     // game over
     item.selected = true
-    item.imgUrl = '/30.png'
+    item.imgUrl = './30.png'
     item.state = -1;
     gameOver = true
     timeStop()
@@ -231,7 +231,7 @@ const reappear = () => {
 const gifSrc = ref('')
 const showGif = ref(false)
 const explosion = () => {
-  gifSrc.value = '/explosion.gif';
+  gifSrc.value = './explosion.gif';
   const gifDuration = 1750;
   setTimeout(() => {
     showGif.value = false;
@@ -255,7 +255,7 @@ const languageType = () => {
     iframeSrc2.value = 'https://www.youtube.com/embed/PWirijQkH4M?si=7VU6JOuaKXhs4y4b'
     accountLink.value = 'https://www.youtube.com/@MrBeast'
   } else {
-    condition2.value = true
+    condition1.value = true
     iframeSrc1.value = '//player.bilibili.com/player.html?isOutside=true&aid=1805797350&bvid=BV11b421H7YB&cid=1586386146&p=1&autoplay=0'
     accountLink.value = 'https://space.bilibili.com/1027737427'
   }
