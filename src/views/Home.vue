@@ -255,7 +255,7 @@ const languageType = () => {
     iframeSrc2.value = 'https://www.youtube.com/embed/PWirijQkH4M?si=7VU6JOuaKXhs4y4b'
     accountLink.value = 'https://www.youtube.com/@MrBeast'
   } else {
-    condition1.value = true
+    condition2.value = true
     iframeSrc1.value = '//player.bilibili.com/player.html?isOutside=true&aid=1805797350&bvid=BV11b421H7YB&cid=1586386146&p=1&autoplay=0'
     accountLink.value = 'https://space.bilibili.com/1027737427'
   }
