@@ -6,7 +6,7 @@ A grid-walking game inspired by [@MrBeast](https://www.youtube.com/@MrBeast)'s [
 
 Snipaste
 
-![Snipaste](.\public\snipaste\Snipaste.png)
+![Snipaste](./public/snipaste/Snipaste.png)
 
 
 
