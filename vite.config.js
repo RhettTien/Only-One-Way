@@ -9,8 +9,8 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "/Only-One-Way/",
-  base: "./",
+  base: "/Only-One-Way/",
+  // base: "./",
   plugins: [
     vue(),
     AutoImport({
